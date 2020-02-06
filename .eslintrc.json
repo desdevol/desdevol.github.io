@@ -1,6 +1,6 @@
 {
     "env": {
-        "browser": false,
+        "browser": true,
         "es6": true,
         "node": true
     },
@@ -20,6 +20,7 @@
         "vue"
     ],
     "rules": {
-        "indent": ["warn", 4]
+        "indent": ["warn", 4],
+        "no-console": "off"
     }
 }
