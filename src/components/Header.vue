@@ -1,12 +1,13 @@
 <template lang="pug">
-q-header.bg-primary.text-white(bordered)
-    q-toolbar.bg-primary.text-whiterounded-borders
-        q-btn(flat, label='Homepage')
+q-header.bg-dark.text-white(bordered)
+    q-toolbar.text-whiterounded-borders
+        //- TODO: replace with
+        q-btn(flat, label='Home')
         q-space
         q-tabs(v-model='tab', shrink)
-            q-tab(name='tab1', label='Tab 1')
-            q-tab(name='tab2', label='Tab 2')
-            q-tab(name='tab3', label='Tab 3')
+            q-tab(name='tab1', label='About')
+            q-tab(name='tab2', label='Projects')
+            q-tab(name='tab3', label='Contact')
 
 </template>
 
